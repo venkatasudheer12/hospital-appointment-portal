@@ -1,0 +1,78 @@
+{
+  "doctors": [
+    {
+      "id": "D001",
+      "name": "Dr.Narayana",
+      "specialization": "Cardiology",
+      "experience": 12,
+      "phone": "9876543210",
+      "email": "ananya.rao@carepoint.test",
+      "available": true
+    },
+    {
+      "id": "D002",
+      "name": "Dr. Rahul Sharma",
+      "specialization": "Dermatology",
+      "experience": 8,
+      "phone": "9876543211",
+      "email": "rahul.sharma@carepoint.test",
+      "available": true
+    },
+    {
+      "id": "D003",
+      "name": "Dr. Meera Nair",
+      "specialization": "Pediatrics",
+      "experience": 10,
+      "phone": "9876543212",
+      "email": "meera.nair@carepoint.test",
+      "available": false
+    }
+  ],
+  "patients": [
+    {
+      "id": "P001",
+      "name": "Arjun Kumar",
+      "age": 28,
+      "gender": "Male",
+      "phone": "9123456780",
+      "email": "arjun@example.com"
+    },
+    {
+      "id": "P002",
+      "name": "Priya Reddy",
+      "age": 34,
+      "gender": "Female",
+      "phone": "9123456781",
+      "email": "priya@example.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "A001",
+      "patientId": "P001",
+      "doctorId": "D001",
+      "date": "2026-10-30",
+      "time": "10:00",
+      "reason": "Routine check-up",
+      "status": "Confirmed"
+    },
+    {
+      "id": "A002",
+      "patientId": "P002",
+      "doctorId": "D002",
+      "date": "2026-10-30",
+      "time": "11:30",
+      "reason": "Skin consultation",
+      "status": "Booked"
+    },
+    {
+      "id": "A1793275545196",
+      "patientId": "P001",
+      "doctorId": "D001",
+      "date": "2026-10-30",
+      "time": "08:30",
+      "reason": "sometimes i got chest pain very little",
+      "status": "Booked"
+    }
+  ]
+}
